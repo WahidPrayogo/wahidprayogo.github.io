@@ -1,0 +1,210 @@
+/* Setting for Mobile First */
+body {
+    background-color: white;
+    font-size: 12px;
+}
+
+/*Header*/
+.head {
+    background-image: url(/assets/image/bg.jpg);
+}
+
+.head .cover {
+    background-color: black;
+    opacity: 85%;
+    padding: 5rem 2rem;
+    color: white;
+}
+
+.head .name {
+    background: -webkit-linear-gradient(left, blue, turquoise);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.head .typing {
+    background: -webkit-linear-gradient(left, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.head .profile {
+    width: 250px;
+    margin-top: -12rem;
+    margin-left: 2rem;
+    opacity: 50%;
+    z-index: -1;
+    position:absolute;
+    border-bottom-left-radius: 25% 50%;
+    border-bottom-right-radius: 25% 50%;
+}
+
+/*About Me*/
+.about-me {
+    text-align: center;
+    padding: 3rem 0 1rem;
+}
+
+.about-me .title-tag {
+    background: -webkit-linear-gradient(left, black, blue,turquoise);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Skills*/
+.skills {
+    text-align: center;
+}
+
+.skills .title-tag {
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, black, blue,turquoise);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills hr {
+    margin: auto;
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.skills .programmer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    margin:1rem 0;
+    padding: 1rem 0;
+}
+
+.skills .designer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    margin:1rem 0;
+    padding: 1rem 0;
+}
+
+.skills .apps {
+    font-size: 9px;
+}
+.skills .apps img {
+    width: 25px;
+    height: 25px;
+}
+
+/*Project*/
+.skills .project {
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+}
+
+.skills .project .carousel-item img {
+   width: 200px;
+   height: 200px;
+   margin-bottom: 6rem;
+   background-color: pink;
+}
+
+.skills .project .carousel-item .carousel-caption span {
+    background: -webkit-linear-gradient(left, purple, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills .project .carousel-item .carousel-caption .btn-modal {
+    background-color: white;
+    border-width: 1px;
+    border-top-left-radius: 10% 25%;
+    border-top-right-radius: 10% 25%;
+    border-bottom-left-radius: 10% 25%;
+    border-bottom-right-radius: 10% 25%;
+    font-size: 8px;
+    padding: 2px 5px 2px 5px;
+}
+
+.skills .project .carousel-item .carousel-caption .btn-modal:hover {
+    background: linear-gradient(45deg, #7C20E6 , #0055b3 , #0caaf3);
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-top-left-radius: 10% 25%;
+    border-top-right-radius: 10% 25%;
+    border-bottom-left-radius: 10% 25%;
+    border-bottom-right-radius: 10% 25%;
+    font-size: 8px;
+    padding: 2px 5px 2px 5px;
+}
+
+.skills .project .btn  {
+    opacity: 0%;
+    margin: 0 2px;
+    padding: 0;
+    width: 20px;
+    height: 3px;
+}
+
+.skills .project li  {
+    background-color:grey;
+    opacity: 100%;
+    margin: -5rem 0.1rem;
+    padding: 0;
+    width: 10px;
+    height: 3px;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+}
+
+.skills .project li.active  {
+    background-color:blue;
+    opacity: 100%;
+    margin: -5rem 0.1rem;
+    padding: 0;
+    width: 15px;
+    height: 3px;
+}
+
+.skills .prev,.next,.next:hover {
+    height: 200px;
+    color: grey;
+    font-size: 32px;
+    opacity: 50%;
+}
+
+/*PopUp Modal*/
+.modal button {
+    background-color: white;
+    border: none;
+    font-size: 12px;
+    color: black;
+}
+.modal-body .gg-logo {
+    border-radius: 100%;
+    width: 200px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/*Contact Me*/
+.contact {
+    background-color: black;
+    color: white;
+    font-size: 8px;
+    padding: 1rem;
+    padding-bottom: 0.25rem;
+}
+
+.contact h6 {
+    background: -webkit-linear-gradient(left, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact .footer hr {
+    padding: 0;
+    margin: 1rem 0 0.25rem 0;
+}
+
