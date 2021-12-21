@@ -12,8 +12,8 @@ body {
 
 .head .cover {
     background-color: black;
-    opacity: 100%;
-    padding: 5rem 1rem;
+    opacity: 80%;
+    padding: 5rem 1rem 0 1rem;
     color: white;
 }
 
@@ -35,12 +35,13 @@ body {
 
 .head .profile {
     width: 250px;
-    margin-top: -12rem;
-    margin-left: 2rem;
+    margin-top: -13rem;
+    margin-left: 8rem;
     opacity: 100%;
     z-index: 0;
-    position:absolute;
-    border-radius: 50%;
+    position:relative;
+    border-radius: 100%;
+    transform: scaleX(-1);
 }
 
 /*About Me*/
