@@ -102,9 +102,11 @@ body {
 
 .skills .project .carousel-item img {
    width: 200px;
-   height: 200px;
    margin-bottom: 6rem;
-   background-color: pink;
+}
+
+.skills .project .carousel-item .circle {
+   border-radius: 50%;
 }
 
 .skills .project .carousel-item .carousel-caption span {
@@ -181,18 +183,21 @@ body {
     font-size: 12px;
     color: black;
 }
-.modal-body .gg-logo {
-    border-radius: 100%;
+.modal-body img {
     width: 200px;
     margin-bottom: 1rem;
     margin-top: 1rem;
+}
+
+.modal-body .circle {
+    border-radius: 50%;
 }
 
 /*Contact Me*/
 .contact {
     background-color: black;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
     padding: 1rem;
     padding-bottom: 0.25rem;
 }
